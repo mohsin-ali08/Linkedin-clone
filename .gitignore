@@ -7,6 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 node_modules
+.env
 dist
 dist-ssr
 *.local
@@ -16,8 +17,11 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
-*.suo
+*.suogit push -u origin main
+
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+.vercel
