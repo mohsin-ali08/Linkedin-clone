@@ -121,11 +121,11 @@ const PostModal = ({ visible, onCreate, onCancel, userName, profileImage }) => {
         </div>
       )}
       <div className="flex justify-end mt-6 space-x-3">
-        <Button onClick={onCancel} className=' py-5 text-white text-lg font-semibold hover:bg-gray-300 hover:text-black bg-gray-600'
+        <Button onClick={onCancel} className=' py-5 text-white  font-semibold hover:bg-gray-300 hover:text-black bg-gray-600'
         >Cancel</Button>
         <Button
           type="none"
-          className='px-5 py-5 text-white text-lg font-semibold hover:bg-gray-300 hover:text-black bg-gray-600'
+          className='px-5 py-5 text-white  font-semibold hover:bg-gray-300 hover:text-black bg-gray-600'
           onClick={handlePostSubmit}
           loading={loading} // Show loader on "Post" button
         >
